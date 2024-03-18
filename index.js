@@ -12,7 +12,7 @@ const cors = require("cors");
 
 dotenv.config();
 app.use(cors({
-  origin:"https://ventes.onrender.com/",
+  origin:"https://ventes.onrender.com",
 }))
 
 mongoose
